@@ -5,6 +5,9 @@ using namespace std;
 
 Ram::Ram() {
     size = 100 * 1024;
+    for(int i = 0; i < size; i++) {
+        mem[i] = 0;
+    }
 }
 
 Ram::~Ram() {
