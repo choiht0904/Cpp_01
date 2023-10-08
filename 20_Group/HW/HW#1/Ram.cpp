@@ -8,7 +8,7 @@ Ram::Ram() {
 }
 
 Ram::~Ram() {
-    cout << "¸Þ¸ð¸® Á¦°ÅµÊ" << endl;
+    cout << "ë©”ëª¨ë¦¬ ì œê±°ë¨" << endl;
 }
 
 char Ram::read(int address) {
