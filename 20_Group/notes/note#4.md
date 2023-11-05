@@ -158,10 +158,6 @@ Power Power::operator++(int x) {
 }
 ```
 
-
-## 프렌드를 이용한 연산자 중복
-
-
 # Pair Programming
 
 ```C++
