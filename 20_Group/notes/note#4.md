@@ -165,6 +165,7 @@ Power Power::operator++(int x) {
 # Pair Programming
 
 ```C++
+// 이 중에서 에러가 나지 않는 것을 고르시오.
 Power& ret_This() {
 	return *this;
 }
@@ -185,3 +186,13 @@ Power ret_This() {
 	return this;
 }
 ```
+
+> 1번의 경우 반환 유형이 Power&이고 *this를 반환하므로 객체에 대한 참조를 반환합니다.
+> 
+> 2번의 경우 반환 유형이 Power이고 *this를 반환하므로 객체를 복사하여 반환합니다.
+> 
+> 3번의 경우 this는 포인터 형식이므로 Power&를 반환하는 함수에서 this를 반환하는 것은 일치하지 않습니다.
+> 
+> 4번의 경우 반환 유형이 Power *이고 this를 반환하므로 객체의 포인터를 반환합니다.
+> 
+> 5번의 경우 반환 유형이 Power이지만 this는 포인터 형식이므로 일치하지 않습니다.
