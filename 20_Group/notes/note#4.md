@@ -1,7 +1,4 @@
-<span style="color:red; background-color:gray"> .dwdw </span>  
-<font color="red">빨간색</font>
-
-# 정리노트
+# 정리노트#4
 
 ## 프렌드
 
@@ -92,19 +89,77 @@ void RectManager::copy(Rect& dest, Rect& src) {
 - 피연산자의 개수를 바꿀 수 없음
 - 연산의 우선 순위 변경 안됨
 - 모든 연산자가 중복 가능하지 않음
-> 중복 불가능한 연산자 : ., .*, ::, ? :
-
+> 중복 불가능한 연산자 : [.], [.*], [::], [? :]
 - 연산자 함수 구현 방법 2가지
   - 클래스의 멤버 함수로 구현
   - 외부 함수로 구현하고 클래스에 프렌드 함수로 선언
+- 연산자 함수 형식
+> {리턴타입} operator{연산자}(매개변수리스트);
+- 예제
+
+```c++
+// 외부 함수로 구현되고 클래스에 프렌드로 선언되는 경우 
+Color operator+ (Color op1, Color op2); // 외부 함수
+bool operator== (Color op1, Color op2); // 외부 함수
+
+class Color {
+	friend Color operator+ (Color op1, Color op2);
+	friend bool operator== (Color op1, Color op2);
+};
+
+// 클래스의 멤버 함수로 작성되는 경우
+class Color {
+	Color operator+ (Color op2);
+	bool operator== (Color op2);
+}
+```
 
 
 ## 단항 연산자 중복
 
+- 피연산자가 하나 뿐인 연산자
+- 단항 연산자 종류
+    - 전위 연산자 : ++a, --a
+    - 후위 연산자 : a++, a--
+- 특성
+    - 전위(++a) 증가 연산자를 중복 정의할 때 리턴 타입에 참조(&)를 사용하면 객체를 참조로 반환하여 해당 객체의 직접 수정을 허용하게 됩니다.
+    - 후위(a++) 증가 연산자를 중복 정의할 때는 리턴 타입에 참조(&)를 사용하지 않고 객체를 값으로 반환합니다.
+- 예제
+
+```c++
+class Power {
+	int kick;
+	int punch;
+public:
+	Power(int kick=0, int punch=0) {
+		this->kick = kick; this->punch = punch;
+	}
+	void show();
+	Power& operator++ (); // 전위 ++ 연산자 함수 선언
+	Power operator++ (int x); // 후위 ++ 연산자 함수 선언
+};
+
+void Power::show() {
+	cout << "kick=" << kick << ','
+	<< "punch=" << punch << endl;
+}
+
+Power& Power::operator++() {
+	kick++;
+	punch++;
+	return *this; // 변경된 객체 자신(객체 a)의 참조 리턴
+}
+
+Power Power::operator++(int x) {
+	Power tmp = *this; // 증가 이전 객체 상태를 저장
+	kick++;
+	punch++;
+	return tmp; // 증가 이전 객체 상태 리턴
+}
+```
 
 
 ## 프렌드를 이용한 연산자 중복
-
 
 
 # Pair Programming
