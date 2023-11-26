@@ -4,8 +4,7 @@
 
 - 중복 함수의 코드 중복
 
-![image](https://github.com/choiht0904/Cpp_01/assets/77330457/668590a9-6773-4a85-b0af-b37efc0af6ae)
-
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/95d30f5c-40d2-4dd1-8446-504aeb370c25)
 
 ## 일반화와 템플릿
 
