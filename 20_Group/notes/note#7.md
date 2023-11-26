@@ -170,3 +170,33 @@ void mySwap(T & a,  T & b) {
 #### auto의 기본 사용 사례
 
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b0903e39-9ccf-42ba-92c7-2dd7936d984f)
+
+#### auto의 다른 활용 사례
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b1c92d55-06b4-417d-bdec-19911a836b3a)
+
+### 람다
+
+#### 람다 대수와 람다식
+
+- 람다 대수에서 람다식은 수학 함수를 단순하게 표현하는 기법
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/c4389d5b-520d-458b-82bb-70677a9c82e1)
+
+#### C++ 람다
+
+- 익명의 함수 만드는 기능으로 C++11에서 도입
+    - 람다식, 람다 함수로도 불림
+    - C#, Java, Python, Js 등 많은 언어들이 도입하고 있음
+
+#### C++에서 람다식 선언
+
+- C++의 람다식의 구성
+	- 4 부분으로 구성
+ 		- 캡쳐 리스트 : 람다식에서 사용하고자 하는 함수 바깥의 변수 목록
+     	- 매개변수 리스트 : 보통 함수의 매개변수 리스트와 동일
+        - 리턴 타입
+        - 함수 바디 : 람다식의 함수 코드
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/733e55c1-89a7-459c-9d11-8c01edee8226)
+
