@@ -192,22 +192,22 @@ int gcount()
     - C++ 표준 라이브러리에 구현된 조작자 : 입출력 포맷 지정 목적
     - 개발자만의 조자자 작성 가능 : 다양한 목적
     - 매개 변수 없는 조작자와 매개 변수를 가진 조작자로 구분
-- 조작자는 함상 <<나 >> 연산자와 함께 사용됨
+- 조작자는 함상 `<<`나 `>>` 연산자와 함께 사용됨
 
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/ad4d4359-36cc-4a57-8b34-c5426db0f4f8)
 
-#### 삽입 연산자(<<)와 추출 연산자(>>)
+#### 삽입 연산자(`<<`)와 추출 연산자(`>>`)
 
-- 삽입 연산자(<<)
+- 삽입 연산자(`<<`)
     - insertion operator, 삽입자라고도 부름
-        - << 연산자는 C++의 기본 연산자 : 정수 시프트 연산자
+        - `<<` 연산자는 C++의 기본 연산자 : 정수 시프트 연산자
     - ostream 클래스에 중복 작성되어 있음
     
     ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/49937b81-ab55-44f1-bf31-226bea367dd8)
 
-- 추출 연산자(>>)
+- 추출 연산자(`>>`)
     - extraction operator
-        - >> 연산자는 C++의 기본 연산자 : 정수 시프트 연산자
+        - `>>` 연산자는 C++의 기본 연산자 : 정수 시프트 연산자
     - ostream 클래스에 중복 작성되어 있음
     
     ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/9f9dbc83-e826-4582-b7a8-ed4fb480ec16)
@@ -217,22 +217,22 @@ int gcount()
 
 #### 사용자 삽입 연산자 만들기
 
-- 개발자가 작성한 클래스의 객체를 << 연산자로 출력
+- 개발자가 작성한 클래스의 객체를 `<<` 연산자로 출력
 
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b8dec372-8b8b-4af8-afa2-ef198ad4da21)
 
-- cout << p를 위한 << 연산자 만들기
+- cout << p를 위한 `<<` 연산자 만들기
     
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/fd5ed2ce-b7e5-406d-8da0-b704b934dff6)
 
 
 #### 사용자 추출 연산자 만들기
 
-- 개발자가 작성한 클래스의 객체에 >> 연산자로 입력
+- 개발자가 작성한 클래스의 객체에 `>>` 연산자로 입력
 
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b0ae8f13-148f-4181-b4ee-f3662ff7cb92)
 
-- cin >> p를 위한 >> 연산자 만들기
+- cin >> p를 위한 `>>` 연산자 만들기
 
 ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/2ad8f63c-3551-48d5-becf-efdf26d46fbb)
 
