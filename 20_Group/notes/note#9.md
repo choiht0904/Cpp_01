@@ -4,7 +4,7 @@
 
 ## 텍스트 파일과 바이너리 파일
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/91d18a05-d574-4133-930d-23b2112f8f15/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/bc283a7c-7d3d-41c8-a0e9-571ef7093075)
 
 ### 텍스트 파일
 
@@ -20,13 +20,13 @@
 
 - `Enter` 키를 입력하면 텍스트 파일에는 `\n`, `\t`의 두 코드가 기록됨
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/d6fe0c2c-b660-4f3a-bab4-92d00888799c/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/0d201b1c-0049-4bae-b8ab-7af8a810daa5)
 
 ### 텍스트 파일의 내부
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/385c3fa2-ceee-4db5-a63a-287a2708d3ca/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/6a0f8fd9-1f91-4434-b135-2f72de889c92)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/9ac3c3d5-b3a5-49f4-9bd9-0b70ad4357db/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/57c12f38-afe7-462d-9eec-37843f2a0899)
 
 ### 바이너리 파일
 
@@ -44,7 +44,7 @@
 
 ### 바이너리 파일의 내부
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/284d73c9-4d70-4959-aed5-7ad89710f403/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/88e27551-03f4-4ef9-ad58-5c38b8f8477e)
 
 ### hwp 파일은 텍스트 파일인가 바이너리 파일인가
 
@@ -60,17 +60,17 @@
 
 ## 파일 입출력 개요
 
-![C++ 표준 파일 입출력 라이브러리](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/c81f4713-1005-4727-b06f-31bc18657bfb/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/d354db42-e06f-416c-8b5e-d43de9d6e75e)
 
 C++ 표준 파일 입출력 라이브러리
 
 ### 템플릿에 `char` 타입으로 구체화한 클래스들
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/db756d18-c325-44e4-8dea-2cf4924a2cca/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/550daec0-bb51-4a87-8754-1c3f99ee0f3f)
 
 ### 파일 입출력 스트림은 파일을 프로그램과 연결
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/cb1416e5-7029-4beb-86f2-4017ce35f0dc/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/a3375aca-8431-415c-a359-7b3f389852a3)
 
 - `>>` 연산자와 istream의 get, read 함수
     - 연결된 장치로부터 읽는 함수
@@ -84,7 +84,7 @@ C++ 표준 파일 입출력 라이브러리
 - C++ 파일 입출력 라이브러리 사용
     - <fstream> 헤더 파일과 std 이름 공간의 선언 필요
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/70c0f9b9-94ee-4d12-be11-8ff645a02163/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/5a3b41a3-fbbb-423b-968c-f8631ac09eb6)
 
 ### 파일 입출력 모드 : 텍스트 I/O와 바이너리 I/O
 
@@ -104,7 +104,7 @@ C++ 표준 파일 입출력 라이브러리
 
 ### `<<` 연산자를 이용한 간단한 파일 출력
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/5cb7a2c6-2e99-4c66-9ded-40f34f8bdcd3/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/cd13104a-a3cd-409e-b17f-fc106cbe67c6)
 
 ### 파일 모드
 
@@ -119,24 +119,24 @@ C++ 표준 파일 입출력 라이브러리
     - ifstream(”파일이름”, 파일모드)
     - ofstream(”파일이름”, 파일모드)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/2993d2b7-0534-4689-83db-5b61df077c0c/Untitled.png)
-    
+    ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/71518618-30e7-4bab-8723-d550efa0101e)
+
 
 ### 파일 모드 설정
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/e42ff4b1-209d-44e8-a1c1-517a131f6e48/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/0abf1c64-78eb-4151-8435-0376b491ab49)
 
 ### get()과 EOF
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/92c0fc6d-45c8-411f-b743-a88847bf11ea/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/4f72a6db-c0f6-4997-8477-80931140e25b)
 
 ### get()으로 파일의 끝을 인지하는 방법
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/64bfdbeb-2ba8-4f34-af33-6ca1433bc9ed/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b612cbac-e5a6-4c45-992a-1326a8dcdfb7)
 
 ### 파일의 끝을 잘못 인지하는 코드
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/80b1642e-c143-4075-8782-1bd921bae38f/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/c60e1531-33a9-4d31-9a57-39f48a92dd99)
 
 ### 텍스트 파일의 라인 단위 읽기
 
@@ -144,7 +144,7 @@ C++ 표준 파일 입출력 라이브러리
     - istream의 getline(char* line, int n) 함수 이용
     - getline(ifstream& fin, string& line) 함수 이용
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/d2e7a5d3-b3b3-4115-9229-cc7273715895/Untitled.png)
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/348d6bf4-b281-4b26-a291-483f08649952)
 
 ### 바이너리 I/O
 
@@ -155,8 +155,8 @@ C++ 표준 파일 입출력 라이브러리
     - ios::binary 모드 속성 사용
         - ios::binary가 설정되지 않으면 디폴트가 텍스트 I/O
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/23afbf2d-11a4-4dd7-a3bc-d48ae0a904e2/f90ad2a7-d95e-4db9-8093-c65b9e5d637d/Untitled.png)
-        
+        ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/13105988-c6fb-4c34-ab07-d6ccf73fb48f)
+
 
 ### read()/write()로 블록 단위 파일 입출력
 
