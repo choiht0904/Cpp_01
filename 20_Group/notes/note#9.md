@@ -164,4 +164,76 @@ C++ 표준 파일 입출력 라이브러리
     - 문자 혹은 바이트 단위로 파일 입출력
 - read()/write()
     - 블록 단위로 파일 입출력
- 
+
+ ![image](https://github.com/choiht0904/Cpp_01/assets/77330457/d852a158-2f65-494b-91ce-10adee25d082)
+
+# 예외 처리와 C언어와의 링크 지정
+
+## 실행오류와 오류 처리
+
+### 오류
+
+- 컴파일 오류
+    - 문법에 맞지 않는 구문으로 인한 오류
+- 실행 오류
+    - 개발자의 논리 오류
+    - 예외적으로 발생하는 입력이나 상황에 대한 대처가 없을 때 발생하는 오류
+    - 실행 오류의 결과
+
+## 예외와 예외 처리
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/7efe270a-2787-46c6-a840-f26ffa37502d)
+
+## C++ 예외 처리 기본 형식
+
+### try-throw-catch
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/9dfa27db-21f8-4616-ba10-ce528011e61b)
+
+### throw와 catch
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/a29b26ef-b67e-43b2-b107-201ae8cf304a)
+
+### try-throw-catch의 예외 처리 과정
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/b2432cd3-c08c-4006-bae6-524708af7cba)
+
+### throw와 catch의 예
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/e1f033c5-3d09-47e9-b54b-d683eb90d1d9)
+
+### 예외를 발생시키는 함수의 선언
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/6ae10120-a800-47ba-9e0b-3ad9b9bf950d)
+
+### 다중 try {} 블록
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/0b623e3e-5cfc-42a0-99d6-227c2e4d649e)
+
+## 예외 클래스 만들기
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/43d507c3-0f9d-4f64-9f1c-6603d129d8a4)
+
+## C++ 코드에서 C 코드의 링킹
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/24a37d29-fca8-44f0-bf2e-4779cb1e83c3)
+
+### C 프로그램의 컴파일과 링킹
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/1a742499-45cc-4066-b260-83b846aaf8ea)
+
+### C++ 소스의 컴파일과 링킹
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/2a6e7152-9c1f-45c9-8385-b7ef2a336e8a)
+
+### C++에서 C 함수 호출 시 링크 오류 발생
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/8472c93b-1197-45a4-b9b1-0014fa2f9fbf)
+
+### 비주얼 C++에서의 링크 오류 메시지
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/9e342d15-4a46-450a-872f-48efb72ba533)
+
+### extern “C”
+
+![image](https://github.com/choiht0904/Cpp_01/assets/77330457/c1642a58-eb97-4cc9-836a-5ea37d7e4d83)
